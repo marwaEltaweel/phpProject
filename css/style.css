@@ -1,0 +1,53 @@
+body
+{
+    font-family: 'Signika Negative', sans-serif;
+}
+a
+{
+    color: #b0001a;
+}
+a:hover
+{
+    color: #b0001a;
+}
+.navbar
+{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.navbar-brand
+{
+    font-family: 'Handlee', cursive;
+}
+.headerBG
+{
+    background-image: url(../img/headerBG.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: repeat-y;
+    height: 50vh;
+    color: bisque;
+}
+.footerBG
+{
+    background-color: #b0001a;
+    background-position: center center;
+    background-repeat: repeat-y;
+    position: fixed;
+    height: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: bisque;
+}
+.align-center
+{
+    text-align: center;
+}
+.h-auto
+{
+    height: auto !important;
+    padding-bottom: 50px;
+}
